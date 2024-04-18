@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\izann\\OneDrive - SENAI\\Documentos\\senai-ead\\Codificação para Back-End\\CodBack_MVC_Arquivos_da_Atividade_Aluno\\LHPet\\LHPet.csproj",
+      "projectUniqueName": "C:\\Users\\izann\\OneDrive - SENAI\\Documentos\\senai-ead\\Codificação para Back-End\\CodBack_MVC_Arquivos_da_Atividade_Aluno\\LH-Pets-senai\\LHPet.csproj",
       "projectName": "LHPet",
-      "projectPath": "C:\\Users\\izann\\OneDrive - SENAI\\Documentos\\senai-ead\\Codificação para Back-End\\CodBack_MVC_Arquivos_da_Atividade_Aluno\\LHPet\\LHPet.csproj",
+      "projectPath": "C:\\Users\\izann\\OneDrive - SENAI\\Documentos\\senai-ead\\Codificação para Back-End\\CodBack_MVC_Arquivos_da_Atividade_Aluno\\LH-Pets-senai\\LHPet.csproj",
       "packagesPath": "C:\\Users\\izann\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\izann\\OneDrive - SENAI\\Documentos\\senai-ead\\Codificação para Back-End\\CodBack_MVC_Arquivos_da_Atividade_Aluno\\LHPet\\obj\\",
+      "outputPath": "C:\\Users\\izann\\OneDrive - SENAI\\Documentos\\senai-ead\\Codificação para Back-End\\CodBack_MVC_Arquivos_da_Atividade_Aluno\\LH-Pets-senai\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\izann\\AppData\\Roaming\\NuGet\\NuGet.Config",
