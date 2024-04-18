@@ -1,0 +1,128 @@
+﻿@{
+    ViewData["Title"] = "LH Pet";
+}
+
+<div class="container">
+
+    <h1 class="text-center mt-5">Sistema de Controle Interno - LH Pet</h1>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <caption>Lista de clientes</caption>
+            <table class="table table-hover table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col" class="text-center">ID</th>
+                        <th scope="col" class="text-center">Nome</th>
+                        <th scope="col" class="text-center">CPF</th>
+                        <th scope="col" class="text-center">E-mail</th>
+                        <th scope="col" class="text-center">Paciente (pet)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in ViewBag.listaDeClientes)
+                    {
+                        <tr>
+                            <td class="text-center">@item.Id</td>
+                            <td class="text-center">@item.Nome</td>
+                            <td class="text-center">@item.Cpf</td>
+                            <td class="text-center">@item.Email</td>
+                            <td class="text-center">@item.Paciente</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <caption>Lista de fornecedores</caption>
+            <table class="table table-hover table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col" class="text-center">ID</th>
+                        <th scope="col" class="text-center">Nome</th>
+                        <th scope="col" class="text-center">CNPJ</th>
+                        <th scope="col" class="text-center">E-mail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in ViewBag.listaDeFornecedores)
+                    {
+                        <tr>
+                            <td class="text-center">@item.Id</td>
+                            <td class="text-center">@item.Nome</td>
+                            <td class="text-center">@item.Cnpj</td>
+                            <td class="text-center">@item.Email</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+
+@* <!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>@ViewData["Title"]</title>
+<link rel="stylesheet" href="~/css/index.css">
+</head>
+
+<body>
+<h1> >>> Sistema de Controle Interno - LH Pet <<< </h1>
+<h2>Lista de Clientes</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+<th>CPF</th>
+<th>Email</th>
+<th>Paciente</th>
+</tr>
+</thead>
+<tbody>
+@foreach (var item in ViewBag.listaDeClientes)
+{
+<tr>
+<td>@item.Id</td>
+<td>@item.Nome</td>
+<td>@item.Cpf</td>
+<td>@item.Email</td>
+<td>@item.Paciente</td>
+</tr>
+}
+</tbody>
+</table>
+
+<h2>Lista de Fornecedores</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+<th>CNPJ</th>
+<th>Email</th>
+</tr>
+</thead>
+<tbody>
+@foreach (var item in ViewBag.listaDeFornecedores)
+{
+<tr>
+<td>@item.Id</td>
+<td>@item.Nome</td>
+<td>@item.Cnpj</td>
+<td>@item.Email</td>
+</tr>
+}
+</tbody>
+</table>
+</body>
+
+</html> *@
