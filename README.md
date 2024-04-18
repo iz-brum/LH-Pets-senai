@@ -28,7 +28,7 @@ Para executar este projeto em sua máquina local, siga os passos abaixo:
 
 2. Clone este repositório para sua máquina local:
    ```bash
-   git clone https://LH-Pets-senai/aqui
+   git clone https://github.com/iz-brum/LH-Pets-senai.git
 
 3. Navegue até o diretório do projeto:
    ```bash
